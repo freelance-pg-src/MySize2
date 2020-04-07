@@ -5,4 +5,5 @@
     <string name="waist">胴回り</string>
     <string name="inseam">股下</string>
     <string name="sleeve">裄丈</string>
+    <string name="heightText">身長</string>
 </resources>

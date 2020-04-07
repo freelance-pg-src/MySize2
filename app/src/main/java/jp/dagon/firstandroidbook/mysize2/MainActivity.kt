@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.preference.PreferenceManager
 import kotlinx.android.synthetic.main.activity_main.*
+import org.jetbrains.anko.startActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -25,6 +26,8 @@ class MainActivity : AppCompatActivity() {
 
         // 保存ボタンが押された時のリスナー設定
         save.setOnClickListener { onSaveTapped() }
+
+        heightButton.setOnClickListener { startActivity<HeightActivity>() }
     }
 
     /**
