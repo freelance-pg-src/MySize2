@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MySize2</string>
+    <string name="save">保存</string>
+    <string name="neck">首回り</string>
+    <string name="waist">胴回り</string>
+    <string name="inseam">股下</string>
+    <string name="sleeve">裄丈</string>
 </resources>
